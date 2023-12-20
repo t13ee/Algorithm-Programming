@@ -1,7 +1,3 @@
-// #include <stdio.h>
-#include <stdbool.h>
-
-
 int groupedBits(int n)
 {
     int count=0, b;
@@ -22,12 +18,3 @@ int groupedBits(int n)
     
     return count;
 }
-
-/*
-int main()
-{
-    printf("%d", groupedBits(1529));
-    return 0;
-}
-*/
-

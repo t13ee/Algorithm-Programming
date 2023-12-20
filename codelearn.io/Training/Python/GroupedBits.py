@@ -14,7 +14,3 @@ def groupedBits(n):
             accept = True
     
     return count
-
-
-# print(groupedBits(1259))
-

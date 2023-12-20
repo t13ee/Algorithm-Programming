@@ -10,6 +10,3 @@ def factorial(n):
 
 def numberOfCombinations(n, k):
     return factorial(n) / (factorial(k)*factorial(n-k))
-
-
-print(numberOfCombinations(35, 17))

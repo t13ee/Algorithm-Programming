@@ -1,9 +1,8 @@
-// #include <stdio.h>
 #include <string.h>
 #include <stdbool.h>
 
 
-bool startsWith(const char *pre, const char *str)
+bool startswith(const char *pre, const char *str)
 {
     size_t lenpre = strlen(pre),
            lenstr = strlen(str);
@@ -18,7 +17,7 @@ int prefix_of_word(char* s, char* p)
     
     while (t != NULL)
     {   
-        if (startsWith(p, t))
+        if (startswith(p, t))
             return count;
 
         t = strtok(NULL, " ");
@@ -27,14 +26,3 @@ int prefix_of_word(char* s, char* p)
 
     return -1;
 }
-
-/*
-int main()
-{
-    char s[100]="CodeLearn is an online platform", p[100]="on";
-    
-    printf("%d", prefix_of_word(s, p));
-    
-    return 0;
-}
-*/
