@@ -32,6 +32,5 @@ int countBitsPrime(int L, int R)
     for (int i=L; i <= R; i++)
         if (is_prime(decimal_to_binary_and_count(i)))
             count++;
-
     return count;
 }
