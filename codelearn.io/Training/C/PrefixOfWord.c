@@ -22,7 +22,7 @@ int prefix_of_word(char* s, char* p)
             return count;
 
         t = strtok(NULL, " ");
-        count += 1;    
+        count++;    
     }
 
     return -1;
