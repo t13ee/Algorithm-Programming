@@ -7,6 +7,3 @@ def staircase(n):
             else:
                 print(" ", end="")
         print()
-
-
-staircase(6)
